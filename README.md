@@ -53,10 +53,11 @@ example
 </div>
 ```
 ```
-```
 // js
 
  import avtor from 'vue-avatar-hj'
+```
+
 ```
 
 // html
