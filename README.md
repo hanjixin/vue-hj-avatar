@@ -53,9 +53,9 @@ example
 </div>
 ```
 ```
-js
-
 ```
+// js
+
  import avtor from 'vue-avatar-hj'
 ```
 
@@ -64,6 +64,6 @@ js
         <div slot="uploadBtn">
           点击上传
         </div>
-      </avtor>
+ </avtor>
 ```
 
