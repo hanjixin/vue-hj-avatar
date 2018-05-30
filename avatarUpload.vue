@@ -15,8 +15,11 @@
                img-format="png">
 
     </my-upload>
-    <div @click="toggleShow" slot="uploadBtn"></div>
-  </div>
+    <span @click="toggleShow" >
+      <slot name="uploadBtn">
+      </slot>
+    </span>
+    </div>
 </template>
 <script>
   import myUpload from 'vue-image-crop-upload'
@@ -104,7 +107,7 @@
         // console.log('-------- upload fail --------')
         // console.log(status)
         // console.log('field: ' + field)
-        this.$emit('successUpload', {
+        this.$emit('failUpload', {
           status,
           field,
           imgUrl: this.imgDataUrl
