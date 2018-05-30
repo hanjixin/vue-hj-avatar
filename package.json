@@ -1,0 +1,20 @@
+{
+  "name": "vue-hj-avatar",
+  "version": "1.0.0",
+  "description": "和君头像上传vue",
+  "main": "avatarUpload.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "avatar",
+    "upload",
+    "hj"
+  ],
+  "author": "韩吉鑫",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "vue-image-crop-upload": "^2.3.0"
+  }
+}
